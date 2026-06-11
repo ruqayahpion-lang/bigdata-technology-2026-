@@ -22,6 +22,12 @@ Repositori ini berisi implementasi **Machine Learning** menggunakan algoritma **
 
 ---
 
+## Screenshots
+<img width="616" height="959" alt="Cuplikan layar 2026-05-12 145409" src="https://github.com/user-attachments/assets/f34ed26a-6456-44c3-acc4-d9476603dc7b" />
+<img width="1228" height="345" alt="Cuplikan layar 2026-05-12 145648" src="https://github.com/user-attachments/assets/3106ab61-4f2f-4b29-84e1-fee20441ec17" />
+<img width="1920" height="1080" alt="Cuplikan layar 2026-05-12 145300" src="https://github.com/user-attachments/assets/95b8676d-1813-4b81-a22c-1c24f2dc3161" />
+<img width="1920" height="1080" alt="Cuplikan layar 2026-05-12 145311" src="https://github.com/user-attachments/assets/0a5480a3-4829-490e-96e5-7bc1a0de3d4f" />
+
 ## 📂 Struktur Folder
 ```text
 bigdata-project/
@@ -37,10 +43,3 @@ bigdata-project/
 │   └── traffic_model_v1.pkl     # Exported AI Model
 
 ---
-## 📂 Screenshots
-<img width="616" height="959" alt="Cuplikan layar 2026-05-12 145409" src="https://github.com/user-attachments/assets/f34ed26a-6456-44c3-acc4-d9476603dc7b" />
-<img width="1228" height="345" alt="Cuplikan layar 2026-05-12 145648" src="https://github.com/user-attachments/assets/3106ab61-4f2f-4b29-84e1-fee20441ec17" />
-<img width="1920" height="1080" alt="Cuplikan layar 2026-05-12 145300" src="https://github.com/user-attachments/assets/95b8676d-1813-4b81-a22c-1c24f2dc3161" />
-<img width="1920" height="1080" alt="Cuplikan layar 2026-05-12 145311" src="https://github.com/user-attachments/assets/0a5480a3-4829-490e-96e5-7bc1a0de3d4f" />
-
-
