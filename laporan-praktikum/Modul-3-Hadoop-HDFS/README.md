@@ -11,31 +11,13 @@ Repository ini berisi dokumentasi lengkap pengerjaan praktikum mata kuliah **Tek
 
 Dalam praktikum ini, data diolah melalui beberapa tahapan arsitektur Big Data modern:
 
-1. 
-**Raw Data**: Dataset mentah dalam format CSV.
-
-
-2. 
-**Processing Layer**: Menggunakan **Spark** untuk membersihkan data menjadi format **Parquet**.
-
-
-3. 
-**Analytics Layer**: Melakukan agregasi metrik bisnis (KPI) menggunakan **PySpark**.
-
-
-4. 
-**Serving Layer**: Menyimpan hasil olahan dalam format CSV agar siap dikonsumsi oleh BI Tools.
-
-
-5. 
-**Visualization Layer**: Menampilkan insight interaktif melalui **Power BI**.
-
-
-
----
+1. **Raw Data**: Dataset mentah dalam format CSV.
+2. **Processing Layer**: Menggunakan **Spark** untuk membersihkan data menjadi format **Parquet**.
+3. **Analytics Layer**: Melakukan agregasi metrik bisnis (KPI) menggunakan **PySpark**.
+4. **Serving Layer**: Menyimpan hasil olahan dalam format CSV agar siap dikonsumsi oleh BI Tools.
+5. **Visualization Layer**: Menampilkan insight interaktif melalui **Power BI**.
 
 ## 🚀 Langkah Eksekusi & Bukti Praktikum
-
 ### 1. Analytics Layer (Back-end Processing)
 
 Tahap ini bertujuan menghasilkan dataset yang siap untuk *Business Intelligence* (BI). Script `analytics_layer.py` menghitung total revenue, produk terlaris, dan pendapatan per kategori.
@@ -46,84 +28,19 @@ source venv/bin/activate
 python scripts/analytics_layer.py
 
 ```
-
-
-
-> **📸 Screenshot 1: Eksekusi Terminal**
-> 
-> 
-> Menampilkan log "ANALYTICS LAYER COMPLETED SUCCESS" dan durasi eksekusi.
-> 
-> 
-
----
-
-### 2. Serving Layer (Data Storage)
-
-Setelah script dijalankan, folder `data/serving/` akan terbentuk sebagai wadah dataset KPI.
-
-> **📸 Screenshot 2: Struktur Folder Serving**
-> 
-> 
-> Menampilkan folder total_revenue, top_products, category_revenue, dan avg_transaction.
-> 
-> 
-
----
-
-### 3. Visualization Layer (Dashboard Business Intelligence)
-
-Hasil analisis dihubungkan ke Power BI untuk membuat dashboard keputusan bisnis.
-
-| Metrik Visual | Deskripsi |
-| --- | --- |
-| **KPI Card** | Menampilkan Total Revenue sebesar **Rp284,070,070**.
-
- |
-| **Top 10 Products** | Bar chart produk dengan kuantitas penjualan tertinggi.
-
- |
-| **Revenue Category** | Perbandingan pendapatan antar kategori produk.
-
- |
-
-> **📸 Screenshot 3: Dashboard Power BI Utama**
-> 
-> 
-> Tampilan "E-Commerce Sales Dashboard" yang telah disusun rapi.
-> 
-> 
-
+> **📸 Screenshot**
+> <img width="1032" height="1023" alt="Cuplikan layar 2026-04-02 195719" src="https://github.com/user-attachments/assets/af299572-0a49-4978-943d-1ce635675d82" />
+><img width="1920" height="1080" alt="Cuplikan layar 2026-04-02 195731" src="https://github.com/user-attachments/assets/d10ab181-dd2c-410b-83c0-37545f490bda" />
+> <img width="1920" height="1080" alt="Cuplikan layar 2026-04-02 195741" src="https://github.com/user-attachments/assets/b493beff-30a0-4e12-a327-98a1b521e5e2" />
+<img width="1920" height="1080" alt="Cuplikan layar 2026-04-02 195809" src="https://github.com/user-attachments/assets/915ca3af-56f0-42f5-8227-9337b67b3c0b" />
 ---
 
 ## 📈 Kesimpulan & Insight Bisnis
 
 Melalui praktikum ini, diperoleh pemahaman kritis bahwa:
-
-* 
 **Power BI** berperan sebagai penyaji hasil akhir, bukan mesin pemroses data besar.
-
-
 * Komputasi berat dilakukan di **Spark Processing Layer**.
-
-
 * Dashboard visual sangat efektif untuk membantu **Manajer** dan **Eksekutif** memahami kondisi bisnis dengan cepat.
 
-
-
----
-
-## 📋 Checklist Validasi
-
-Berdasarkan rubrik penilaian modul:
-
-* [ ] Analytics layer berhasil dijalankan.
-* [ ] Folder `data/serving` terbentuk.
-* [ ] Dataset berhasil diimport ke Power BI.
-* [ ] KPI Total Revenue tampil dengan benar.
-* [ ] Visualisasi Top Product & Category Revenue muncul.
-* [ ] Dashboard memiliki judul yang sesuai.
-
----
 
 **👨‍🏫 Lecturer:** Muhayat, M.IT **🏫 Institution:** Teknologi Informasi UIN Antasari **📅 Year:** 2026
