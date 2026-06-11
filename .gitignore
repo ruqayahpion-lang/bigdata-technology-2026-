@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+
+# Data files
+data/
+stream_data/
+
+# Spark logs & checkpoint
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+
+stream_data/
+*.parquet
+stream_data/
+data/
+logs/
+__pycache__/
+*.pkl
+kafka_2.13-3.5.1/
+kafka_2.13-3.5.1.tgz
+spark-3.5.1-bin-hadoop3.tgz
+strea_data/
+data/
+checkpoints/
+logs/
+venv/
+__pycache__/
